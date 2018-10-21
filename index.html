@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Unit 4 Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Kaushan+Script|Lobster|Pacifico" rel="stylesheet">    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  </head>
+
+  <body>
+
+    <div id="container">
+      <div class="header">
+        <h1>Crystal Collectors</h1>
+      </div>
+
+      <div class="instrux">
+        <p>You will be given a random number at the start of the game.</p>
+        <br>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of point to your total score.</p>
+        <br>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+        <br>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+      </div>
+
+      <div class="numAndScore">
+
+        <div id="randomNum">
+          <span id="random-number"></span>
+        </div>
+
+        <div id="score">
+          <span id="winRlose"></span>
+          <p>Wins: <span id="win-counter">0</span></p>
+          <p>Losses: <span id="loss-counter">0</span></p>
+        </div>
+
+      </div>
+
+      <div class="crystals">
+        <img id="diamond" src="assets/images/diamond.png" class=gemImage alt="diamond">
+        <img id="ruby"  src="assets/images/ruby.jpg" class=gemImage alt="ruby">
+        <img id="topaz"  src="assets/images/topaz.png" class=gemImage alt="topaz">
+        <img id="emerald"  src="assets/images/emerald.png" class=gemImage alt="emerald">
+      </div>
+
+      <div class="userTotal">
+        <h4>Your total score is: </h4>
+        <span id="finalTotal"></span>
+      </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	  <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </div>
+
+  </body>
+</html>

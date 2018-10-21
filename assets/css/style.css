@@ -1,0 +1,109 @@
+body {
+  background-image: url("wood.jpeg");
+  background-size: cover;
+}
+
+#container {
+  margin-top: 30px;
+}
+
+.header {
+  background-image: url("2x.png");
+  width: 300px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  color: rgb(122, 12, 232);
+  text-align: center;
+  font-size: 45px;
+  letter-spacing: 2px;
+  padding: 8px 5px 8px 5px;
+  font-family: 'Lobster', cursive;
+}
+
+.instrux {
+  background-image:url("flower.jpg");
+  width: 500px;
+  height: 250px;
+  line-height: 17px;
+  margin: 25px auto 10px;
+}
+
+.instrux p {
+  padding-top: 9px;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-family: 'Kaushan Script', cursive;  
+  font-size: 21px;
+  color: rgb(255, 180, 41);
+}
+
+.numAndScore {
+  width: 500px;
+  margin: 0 auto 10px;
+  height: 130px;
+}
+
+#random-number {
+  padding-left: 8px;
+}
+
+#randomNum {
+  background-image:url("2x.png");
+  font-size: 60px;
+  color: orangered;
+  width: 49%;
+  height: 100%;
+  float: left;
+  font-family: 'Dancing Script', cursive;
+}
+
+#score {
+  background-image:url("2x.png");
+  width: 49%;
+  height: 100%;
+  font-size: 30px;
+  float: right;
+  text-align: center;
+  line-height: 1.4em;
+  font-family: 'Dancing Script', cursive;
+  color: orangered;
+}
+.crystals {
+  background-color: black;
+  width: 500px;
+  height: 126px;
+  margin: auto;
+  border: 2px solid salmon;
+}
+
+.crystals img {
+  width: 25%;
+  height: 100%;
+  float: left;
+}
+
+.userTotal {
+  clear: both;
+  width: 500px;
+  height: 100px;
+  background-color: red;
+  margin: 10px auto;
+  font-family: 'Dancing Script', cursive;
+}
+.userTotal h4 {
+  font-size: 150%;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+#finalTotal {
+  color:black;
+  font-size: 350%;
+  padding-left: 10px;
+}
+
+
