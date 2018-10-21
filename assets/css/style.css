@@ -1,5 +1,5 @@
 body {
-  background-image: url("wood.jpeg");
+  background-image: url("newood.jpg");
   background-size: cover;
 }
 
@@ -8,13 +8,12 @@ body {
 }
 
 .header {
-  background-image: url("2x.png");
   width: 300px;
   margin: 0 auto;
 }
 
 .header h1 {
-  color: rgb(122, 12, 232);
+  color:rgb(250, 250, 250);
   text-align: center;
   font-size: 45px;
   letter-spacing: 2px;
@@ -23,7 +22,7 @@ body {
 }
 
 .instrux {
-  background-image:url("flower.jpg");
+  background-image:url("2x.png");
   width: 500px;
   height: 250px;
   line-height: 17px;
@@ -36,7 +35,7 @@ body {
   padding-right: 5px;
   font-family: 'Kaushan Script', cursive;  
   font-size: 21px;
-  color: rgb(255, 180, 41);
+  color: rgb(255, 0, 140)
 }
 
 .numAndScore {
@@ -50,7 +49,7 @@ body {
 }
 
 #randomNum {
-  background-image:url("2x.png");
+  background-image:url("bubs.jpg");
   font-size: 60px;
   color: orangered;
   width: 49%;
@@ -60,7 +59,7 @@ body {
 }
 
 #score {
-  background-image:url("2x.png");
+  background-image:url("bubs.jpg");
   width: 49%;
   height: 100%;
   font-size: 30px;
@@ -88,7 +87,7 @@ body {
   clear: both;
   width: 500px;
   height: 100px;
-  background-color: red;
+  background-image: url("2x.png");
   margin: 10px auto;
   font-family: 'Dancing Script', cursive;
 }
@@ -98,12 +97,16 @@ body {
   padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 10px;
+  color: red;
+  text-align: center;
 }
 
 #finalTotal {
-  color:black;
+  color:red;
   font-size: 350%;
   padding-left: 10px;
+  text-align: center;
+  /* not sure why the text-align center doesn't work */
 }
 
 
