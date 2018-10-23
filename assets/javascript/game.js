@@ -50,13 +50,11 @@ $('#ruby').on('click', function(){
 	gamePlay();
 });
 
-
 $('#emerald').on('click', function(){
 	userTotalScore += emeraldChoice;
 	$('#finalTotal').text(userTotalScore);
 	gamePlay();
 });
-
 
 $('#topaz').on('click', function(){
 	userTotalScore += topazChoice;

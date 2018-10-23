@@ -33,7 +33,7 @@ body {
   padding-top: 9px;
   padding-left: 10px;
   padding-right: 5px;
-  font-family: 'Kaushan Script', cursive;  
+  font-family: 'Kaushan Script', cursive;
   font-size: 21px;
   color: rgb(255, 0, 140)
 }
@@ -46,6 +46,7 @@ body {
 
 #random-number {
   padding-left: 8px;
+  text-align:center;
 }
 
 #randomNum {
@@ -108,5 +109,3 @@ body {
   text-align: center;
   /* not sure why the text-align center doesn't work */
 }
-
-
